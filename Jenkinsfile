@@ -17,9 +17,6 @@ def shellString(s) {
 pipeline {
   agent any
 
-  options {
-  }
-
   stages {
     stage('pre-build') {
       steps {
