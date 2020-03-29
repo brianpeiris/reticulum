@@ -11,3 +11,4 @@ You may also have to configure the host and port in the [`RetWeb.Endpoint` secti
     $ DB_HOST=db docker-compose up
 foo
 foo
+test
