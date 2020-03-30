@@ -21,4 +21,4 @@ jobs:
     - name: Install Dependencies
       run: mix deps.get
     - name: Check Formatting
-      run: mix format --check-formatted
+      run: mix format --check-formatted 'lib/**/*.{ex,exs}' 'test/**/*.{ex,exs}' 'priv/repo/migrations/**/*.{ex,exs}'
